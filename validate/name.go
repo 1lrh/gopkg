@@ -3,10 +3,11 @@ package validate
 import (
 	"encoding/json"
 	"errors"
-	"gopkg/fsx"
 	"os"
 	"regexp"
 	"sync"
+
+	"github.com/x1rh/gopkg/fsx"
 )
 
 var (
